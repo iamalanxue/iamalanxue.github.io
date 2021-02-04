@@ -83,6 +83,12 @@
   max-width: 700px;
 }
 
+#img01{
+  width: auto;
+  height: 85%;
+}
+
+
 @media all and (max-height: 760px){
   .modal-content{
     max-height: 600px;

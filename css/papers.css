@@ -84,6 +84,16 @@ a:hover{
 a:visited{
     color: black;
 }
+
+@media all and (max-width: 1050px){
+    .reading-container{
+        grid-template-areas: 
+            "header header"
+            "item1 item2"
+            "item3 item4";
+        grid-template-columns: none;
+    }
+}
 /* 
 .reading-container{
     text-align: center;

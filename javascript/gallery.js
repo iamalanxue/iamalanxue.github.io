@@ -46,8 +46,6 @@ console.log(all_images);
 
 var modal = document.getElementById("myModal");
 var modalImg = document.getElementById("img01");
-modalImg.style.maxHeight = "700px";
-modalImg.style.width="auto";
 //give all images a modal onclick 
 const MODAL = function(images){
     for(image of images){
