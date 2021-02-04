@@ -83,6 +83,12 @@
   max-width: 700px;
 }
 
+@media all and (max-height: 760px){
+  .modal-content{
+    max-height: 600px;
+  }
+}
+
 /* Caption of Modal Image */
 #caption {
   margin: auto;
