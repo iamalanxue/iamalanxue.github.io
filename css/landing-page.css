@@ -44,14 +44,14 @@ header{
     opacity: 0;
     object-fit: contain;
     height: auto;
-    animation: opaque 1s 1.5s linear forwards;
+    animation: opaque 1s 1s linear forwards;
 }
 
 /* This part here is for styling the icons */
 ul{
     opacity: 0;
     list-style-type: none;
-    animation: opaque 1s 1.5s linear forwards;
+    animation: opaque 1s 1s linear forwards;
 }
 .icons{
     position: absolute;

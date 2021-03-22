@@ -1,3 +1,4 @@
+console.log("Hello World");
 document.body.classList.add('js-loading');
 
 window.addEventListener("load", showPage);
