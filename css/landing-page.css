@@ -6,11 +6,11 @@
     width: 100%;
     height: 100vh;
 }
-.js-loading *,
+/* .js-loading *,
 .js-loading *:before,
 .js-loading *:after {
   animation-play-state: paused !important;
-}
+} */
 #picture-container{
     display: grid;
     /* height: 100%; */
