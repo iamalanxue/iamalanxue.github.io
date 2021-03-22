@@ -1,12 +1,19 @@
-#picture-container img{
+#picture-container{
+    background-image: url("../images/highway3.jpg");
+    background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100vh;
 }
-
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
 #picture-container{
     display: grid;
-    height: 100%;
+    /* height: 100%; */
 }
 header{
     display: flex;
@@ -25,13 +32,6 @@ header{
     transform: translateY(-50%);
     right: 10%;
 }
-
-.landing-text img{
-    object-fit: contain;
-    height: auto;
-    animation: opaque 1.5s linear forwards;
-}
-
 @keyframes opaque{
     from{
         opacity: 0;
@@ -40,10 +40,18 @@ header{
         opacity: 1;
     }
 }
+.landing-text img{
+    opacity: 0;
+    object-fit: contain;
+    height: auto;
+    animation: opaque 1s 1.5s linear forwards;
+}
+
 /* This part here is for styling the icons */
 ul{
+    opacity: 0;
     list-style-type: none;
-    animation: opaque 1.5s linear forwards;
+    animation: opaque 1s 1.5s linear forwards;
 }
 .icons{
     position: absolute;
