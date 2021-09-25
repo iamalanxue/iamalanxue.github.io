@@ -6,7 +6,7 @@ window.onbeforeunload = function () {
     window.scrollTo(0, 0);
 }
 
-let camera_img = document.querySelector(".camera-container img"); 
+// let camera_img = document.querySelector(".camera-container img"); 
 let cam_modal = document.getElementById("cameraModal");
 camera_img.style.cursor = "pointer";
 camera_img.onclick = function(){

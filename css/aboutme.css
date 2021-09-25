@@ -44,3 +44,9 @@
     font-size: .75rem;
     text-align: end;
 }
+
+#introduce-myself{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
